@@ -1,0 +1,17 @@
+{
+  "name": "server-ee",
+  "version": "1.0.0",
+  "description": "EE-specific backend extensions for Todo App",
+  "dependencies": {
+    "@nestjs/common": "^10.0.0",
+    "@nestjs/core": "^10.0.0",
+    "typeorm": "file:../../ce/server/node_modules/typeorm"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "build:watch": "tsc --project tsconfig.json --watch",
+    "build": "tsc --project tsconfig.json"
+  }
+}
