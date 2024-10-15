@@ -1,5 +1,5 @@
-import { ITodoService } from '../../../../ce/server/src/todo/types';
-import { Todo } from '../../../../ce/server/src/todo/todo.entity'
+import { ITodoService } from '@ce/todo/types';
+import { Todo } from '@ce/todo/todo.entity'
 import { Repository } from 'typeorm';
 
 // Override only the create method and leave the rest
