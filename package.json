@@ -13,5 +13,8 @@
   "scripts": {
     "build:watch": "tsc --project tsconfig.json --watch",
     "build": "tsc --project tsconfig.json"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
   }
 }
