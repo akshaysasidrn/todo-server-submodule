@@ -19,6 +19,7 @@ export default class TodoServiceEe extends TodoServiceCe {
     isCompleted: boolean,
     title: string,
   ): Promise<Todo> {
+    console.log('TodoServiceEe update method called');
     const todo = await todoRepository.findOne({ where: { id } });
     if (!todo) throw new Error(`Todo with id ${id} not found`);
     todo.isCompleted = isCompleted;
