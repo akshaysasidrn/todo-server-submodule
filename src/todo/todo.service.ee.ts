@@ -3,7 +3,7 @@ import { Todo } from '@ce/todo/todo.entity';
 import { Repository } from 'typeorm';
 import { isEmpty, kebabCase } from 'lodash';
 
-// Override only the create method and leave the rest
+// Override only the create method and leave the resting
 export default class TodoServiceEe extends TodoServiceCe {
   async create(todoRepository: Repository<Todo>, title: string): Promise<Todo> {
     console.log('TodoServiceEe create method called');
