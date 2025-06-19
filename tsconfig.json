@@ -1,3 +1,10 @@
 {
   "extends": "../tsconfig.json"
 }
+
+
+// {
+//   "include": ["./src/**/*", "./ee/src/**/*"],
+//   "exclude": ["node_modules", "dist", "ee/dist"]
+// }
+// tsconfig.json
